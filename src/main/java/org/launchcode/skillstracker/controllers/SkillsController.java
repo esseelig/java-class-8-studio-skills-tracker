@@ -2,7 +2,6 @@ package org.launchcode.skillstracker.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
@@ -19,7 +18,6 @@ public class SkillsController {
 
     //TODO: At localhost:8080/form, add a form that lets the user enter their name and choose their favorite, second favorite, and third favorite programming languages on your list. Use select elements for each of the rankings. Just as with the exercises, we will use @GetMapping().
 
-//    @RequestMapping
     @GetMapping("form")
     @ResponseBody
     public String skillsForm(){
@@ -69,24 +67,6 @@ public class SkillsController {
 
 
 
-
-//                "<select name='firstFavorite'>" +
-//                "<option value=''> </option>" +
-//                "<option value='Java'>Java</option>" +
-//                "<option value='JavaScript'>JavaScript</option>" +
-//                "<option value='C#'>C#</option></select><br />" +
-//                "My second favorite language:<br />" +
-//                "<select name='secondFavorite'>" +
-//                "<option value=''> </option>" +
-//                "<option value='Java'>Java</option>" +
-//                "<option value='JavaScript'>JavaScript</option>" +
-//                "<option value='C#'>C#</option></select><br />" +
-//                "My third favorite language:<br />" +
-//                "<select name='thirdFavorite'>" +
-//                "<option value=''> </option>" +
-//                "<option value='Java'>Java</option>" +
-//                "<option value='JavaScript'>JavaScript</option>" +
-//                "<option value='C#'>C#</option></select><br />" +
 
                 "</tbody>" +
                 "</table>" +
